@@ -1,8 +1,8 @@
 # BInvestment Shares Management System
-BInvestment is a spring boot web application used to keep track of the ownership of shares of any company. Users can see the shares they own and are able to sell and purchase shares. The user must have £10,000 in funds as a minimum to be able to buy shares. 
+Bright Investment is a spring boot web application used to keep track of the ownership of shares of any company. Users can see the shares they own and are able to sell and purchase shares. The user must have £10,000 in funds as a minimum to be able to buy shares. 
 
 ## Web Application Architecture
-BInvestment was created using a microservices architecture. This was type of application architecture was chosen to separate the application features and to make it easier to update and maintain different features of the application without affecting the whole application. The web application consumes information from three API's: Shares-Service, User-Investment-Service and Users-Service. 
+Bright Investment was created using a microservices architecture. This was type of application architecture was chosen to separate the application features and to make it easier to update and maintain different features of the application without affecting the whole application. The web application consumes information from three API's: Shares-Service, User-Investment-Service and Users-Service. 
 
 - The Shares-service microservice is responsible for accessing all shares that available for users to invest in. Also, this micorservice connects to the shares database. 
 
