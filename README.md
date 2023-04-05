@@ -10,10 +10,10 @@ Once the web application is running, the user starts on the welcome page where t
 
 ### Welcome Page: 
 
-![Alt text]()
-
+![Welcome-to-Bright-Investment](https://user-images.githubusercontent.com/75650155/229965053-e78f6a27-54fa-4f78-9092-7663b62caffd.png)
 
 ### Sign In Page: 
+
 
 ![Alt text]()
 
