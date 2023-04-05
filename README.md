@@ -2,13 +2,13 @@
 Bright Investment is a spring boot web application used to keep track of the ownership of shares of any company. Users can see the shares they own and are able to sell and purchase shares. The user must have £10,000 in funds as a minimum to be able to buy shares. 
 
 ## Web Application Architecture
-Bright Investment was created using a microservices architecture. This was type of application architecture was chosen to separate the application features and to make it easier to update and maintain different features of the application without affecting the whole application. The web application consumes information from three API's: Shares-Service, User-Investment-Service and Users-Service. 
+Bright Investment was created using a microservices architecture. This type of application architecture was chosen to separate the application features. It also makes it easier to update and maintain different features of the application without affecting the whole application. The web application consumes information from three API's: Shares-Service, User-Investment-Service and Users-Service. 
 
-- The Shares-service microservice is responsible for accessing all shares that available for users to invest in. Also, this micorservice connects to the shares database. 
+- The Shares-service microservice is responsible for accessing all shares that available for users to invest in. Also, this micorservice connects to the shares table in the database.
 
-- The User-Investment-service microservice is responsible for keeping track of all the investments each user has. It also connects to the investments database. 
+- The User-Investment-service microservice is responsible for keeping track of all the investments each user has. It also connects to the investments table in the database. 
 
-- The Users-Service microservice is responsible for keeping track of all the users and their personal information. This microservice connects to the users database. 
+- The Users-Service microservice is responsible for keeping track of all the users and their personal information. This microservice connects to the users table in the database. 
 
 ## Database Architecture
 
@@ -90,7 +90,7 @@ The user is able to choose between five options once logged into their account:
 ___
 
 ## How to run the web application
-1. Open SQL scripts and run the shares table, investments table and users table. 
+1. Open SQL scripts in MySQL Workbench and execute the queries for the shares table, investments table and users table. 
 2. Start the Users-service API 
 3. Start the User-Investments-Service API
 4. Start the Shares-Service API 
