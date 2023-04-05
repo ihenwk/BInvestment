@@ -1,0 +1,36 @@
+ body{
+ background-color: #000000;
+	background-size: cover;
+	font-family:Inter, sans-serif;
+	font-color: #FFFFFF;
+}
+
+.loginform label, p{
+color: #fff;
+}
+
+.login-username label, p{
+margin: 5px;
+}
+
+#loginform{
+	display: block;
+	margin: 0 auto;
+	width: 425px;
+}
+
+
+
+.logoPicture{
+width: 30%;
+display: block;
+margin: 0px auto;
+padding: 5%;
+
+
+  /*margin-left: auto;
+  margin-right: auto;
+
+  width: 50%;
+  */
+

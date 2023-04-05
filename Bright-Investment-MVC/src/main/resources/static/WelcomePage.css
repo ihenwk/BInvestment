@@ -1,0 +1,83 @@
+
+body {
+background-color: #000000;
+width: fit-content;
+block-size: fit-content;
+}
+
+.welcomeHeader{
+width: 50%;
+display: block;
+margin: 0px auto;
+/*padding-left: 10% ;*/
+}
+.logo{
+width: 30%;
+display: block;
+margin: 0px auto;
+  /*margin-left: auto;
+  margin-right: auto;
+
+  width: 50%;
+  */
+  padding: 5%;
+
+}
+
+#buttons{
+text-align: center;
+}
+.signinbutton{
+align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 40px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+
+.signupbutton {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #50D3C4;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #50D3C4;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 40px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>BUY NEW SHARES</title>
+</head>
+<body>
+
+<form th:action="@{./buyingShares/buyNewShares}" th:obj="${inv}" method="post" >
+
+<label>UserId</label>
+<input th:field="*{inv.userId}" class="form-control" type="text" name="userId" id="userId" placeholder="507" required/>
+<br>
+
+<label for="shareId" class="label">Share Name</label>
+<select th:field= "*{inv.shareId}" name="shareId" id="shareId" class="list">
+    <option th:value="501" >Kitana</option>
+    <option th:value="502" >Kai</option>
+    <option th:value="503" >Nvida</option>
+    <option th:value="504" >Livi</option>
+    <option th:value="506" >Rimowa</option>
+    <option th:value="507" >Jinx</option>
+    <option th:value="509" >OuterNet</option>
+</select>
+<br>
+<label for="shareQuantity">Share Quantity</label>
+<input th:field="*{inv.shareQuantity}" class="form-control" type="text" name="shareQuantity" id="shareQuantity" placeholder="120" required />
+<input type="submit" value="Buy Share" class="button" /><br><br><br>
+</form>
+<!------ Add message saying sale was successful and restrict buying shares to whole numbers -------->
+</body>
+
+</html>
+

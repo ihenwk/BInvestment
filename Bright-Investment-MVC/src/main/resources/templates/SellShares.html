@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SELL SHARES</title>
+</head>
+<body>
+
+<form th:action="@{./sellShares}"  method="post" >
+    <label for="userId" class="label">UserId</label>
+    <input class="form-control" type="text" name="userId" id="userId" placeholder="120" required/>
+    <br>
+    <label for="shareId" class="label">Share Name</label>
+    <select name="shareId" id="shareId" class="list">
+        <option value="501" >Kitana</option>
+        <option value="502" > Kai</option>
+        <option value="503" >Nvida</option>
+        <option value="504" > Livi</option>
+        <option value="506" > Rimowa</option>
+        <option value="507" > Jinx</option>
+        <option value="509" >OuterNet</option>
+    </select>
+    <br>
+    <label for="dec">Share Quantity to Sell</label>
+    <input class="form-control" type="text" name="dec" id="dec" placeholder="1" required />
+
+    <input type="submit" value="Sell Share" class="button" /><br><br><br>
+
+</form>
+<!------ Add message saying sale was successful and restrict buying shares to whole numbers -------->
+</body>
+</html>

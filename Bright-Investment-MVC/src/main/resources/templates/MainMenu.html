@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BRIGHT INVESTMENT DASHBOARD</title>
+</head>
+<body>
+<h1>BRIGHT INVESTMENT DASHBOARD</h1>
+<h3 th:text="'Welcome '+${session.user.companyName}+'!'"> </h3>
+
+<a href="./viewAllUserSharesInput">View All Shares</a>
+<br>
+<a href="./buyingShares">Buy Shares</a>
+<br>
+<a href="./sellSharesPage">Sell Shares</a>
+<br>
+<a href="./depositFunds">Deposit Funds</a>
+<br>
+<a href="./logOut">Log Out</a>
+
+
+</body>
+</html>

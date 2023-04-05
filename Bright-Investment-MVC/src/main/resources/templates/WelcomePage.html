@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "WelcomePage.css">
+    <title>WELCOME TO BRIGHT INVESTMENT</title>
+</head>
+<body>
+
+<h1></h1>
+<img th:src ="@{images/WelcomeHeader.png}" class="welcomeHeader" width="75%">  </img>
+<img th:src ="@{images/BIlogo.png}" class="logo"> </img>
+
+<div id="buttons">
+    <button class="signinbutton">
+        <a href="./signIn">Sign In</a>
+    </button>
+    <button class ="signupbutton">
+        <a href="./signUp"> Sign Up </a>
+    </button>
+</div>
+</body>
+</html>

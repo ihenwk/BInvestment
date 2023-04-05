@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="SignInPage.css">
+    <title>SIGN IN</title>
+</head>
+<body>
+<h1>WELCOME</h1>
+<div></div>
+
+    <img th:src ="@{images/BIlogo.png}" class="logoPicture"> </img>
+
+<div id="main" class="container">
+    <form name="loginform" id="loginform" th:action="@{/checkUser}" method="post" class="loginform">
+        <p class="login-username">
+            <label for="user_login" class="userId">UserId</label>
+            <input type="text" name="userId" id="user_login" class="input" placeholder="305" value="" size="20" />
+        </p>
+        <p class="login-password">
+            <label for="user_pass" class="userPass">Password</label>
+            <input type="password" name="userPassword" id="user_pass" class="input" placeholder="●●●●●●●●●" value="" size="20" />
+        </p>
+
+        <p class="login-submit">
+            <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
+            <input type="hidden" name="redirect_to" value="submit"/>
+        </p>
+        
+    </form>
+</div>
+
+<h2 style="text-align: center;" th:text="${message}"></h2>
+
+</body>
+</html>
