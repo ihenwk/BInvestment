@@ -10,11 +10,17 @@ Once the web application is running, the user starts on the welcome page where t
 
 ### Welcome Page: 
 
+![Alt text]()
+
 
 ### Sign In Page: 
 
+![Alt text]()
+
 
 ### Sign Up Page:
+
+![Alt text]()
 
 
 ### Menu Page: 
@@ -25,18 +31,32 @@ The user is able to choose between five options once logged into their account:
 4. Deposit Funds 
 5. Log Out
 
+![Alt text]()
+
 
 ### View All Shares Page:
 
+![Alt text]()
+
 ### Buy Shares Page:
+
+![Alt text]()
 
 ### Buy More Existing Shares Page: 
 
+![Alt text]()
+
 ### Buy New Shares Page:
+
+![Alt text]()
 
 ### Sell Shares Page:
 
+![Alt text]()
+
 ### Deposit Funds Page:
+
+![Alt text]()
 
 
 ___
