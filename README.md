@@ -20,7 +20,7 @@ Once the web application is running, the user starts on the welcome page where t
 
 ### Sign Up Page:
 
-![Sign-up]()
+![Sign-up](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Sign-Up%20.png)
 
 
 ### Menu Page: 
@@ -31,29 +31,33 @@ The user is able to choose between five options once logged into their account:
 4. Deposit Funds 
 5. Log Out
 
-![Menu]()
+![Menu](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Main-Menu.png)
 
 
 ### View All Shares Page:
 
-![View All Shares]()
+![View All Shares](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/View-All-Investments.png)
 
 ### Buy Shares Page:
 
-![Buy Shares]()
+![Buy Shares](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Buy-Share.png)
 
 ### Buy Shares Success Page: 
 
-![Buy Shares Success]()
+![Buy Shares Success](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Buy-Share%20-%20success-message.png)
 
 
 ### Sell Shares Page:
 
-![Sell Shares]()
+![Sell Shares](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/SellShare.png)
+
+### Sell Shares Success Page:
+
+![Sell Shares Success](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Sell-Share%20-%20success-message.png)
 
 ### Deposit Funds Page:
 
-![Deposit Funds]()
+![Deposit Funds](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Deposit-Funds.png)
 
 
 ___
