@@ -1,4 +1,4 @@
-# BInvestment
+# BInvestment Shares Management System
 BInvestment is a spring boot web application used to keep track of the ownership of shares of any company. Users can see the shares they own and are able to sell and purchase shares. The web application consumes information from three API's: Shares Service, User Investment Service and Users Service. 
 
 ## Web Application Architecture
