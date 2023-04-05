@@ -10,7 +10,7 @@ BInvestment was created using a microservices architecture. This was type of app
 
 - The Users-Service microservice is responsible for keeping track of all the users and their personal information. This microservice connects to the users database. 
 
-##Database Architecture
+## Database Architecture
 
 MySQL was used as the database for this project. Three tables were created: 
 1. Shares table
