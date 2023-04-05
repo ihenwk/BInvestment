@@ -15,12 +15,12 @@ Once the web application is running, the user starts on the welcome page where t
 ### Sign In Page: 
 
 
-![Alt text]()
+![Sign-in-page](https://github.com/ihenwk/BInvestment/blob/8a3c8adca992b6c7f96bffac3170549fcf1a7d07/User-Interface-Mock-Up-Design%20/Login.png)
 
 
 ### Sign Up Page:
 
-![Alt text]()
+![Sign-up]()
 
 
 ### Menu Page: 
@@ -31,32 +31,29 @@ The user is able to choose between five options once logged into their account:
 4. Deposit Funds 
 5. Log Out
 
-![Alt text]()
+![Menu]()
 
 
 ### View All Shares Page:
 
-![Alt text]()
+![View All Shares]()
 
 ### Buy Shares Page:
 
-![Alt text]()
+![Buy Shares]()
 
-### Buy More Existing Shares Page: 
+### Buy Shares Success Page: 
 
-![Alt text]()
+![Buy Shares Success]()
 
-### Buy New Shares Page:
-
-![Alt text]()
 
 ### Sell Shares Page:
 
-![Alt text]()
+![Sell Shares]()
 
 ### Deposit Funds Page:
 
-![Alt text]()
+![Deposit Funds]()
 
 
 ___
