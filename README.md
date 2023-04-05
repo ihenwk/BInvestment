@@ -3,17 +3,26 @@ BInvestment is a spring boot web application used to keep track of the ownership
 
 ## Web Application Architecture
 
+The user must have £10,000 in funds as a minimum to be able to buy shares. 
 
 ___
 ## Design Concept For User Interface & User Experience 
-Once the web application is running, the user starts on the welcome page where they can choose between signing up or signing into their account using their userId and password. 
+Once the web application is running, the user starts on the welcome page where they can choose between signing up or signing into their account using their UserId and password. If the user needs to sign up they will need to create a UserId, password, input their company name, phone number and e-mail. Once signed up, they will need to sign in. The user must have £10,000 in funds as a minimum to be able to buy shares. 
+
+Once the user is signed into their account they will be taken to the menu page where they can choose from five options: 
+1. Deposit Funds 
+2. Buy Shares 
+3. Sell Shares
+4. View All Shares
+5. Log Out
+
+The designs for the pages the user interacts with are shown below. 
 
 ### Welcome Page: 
 
 ![Welcome-to-Bright-Investment](https://user-images.githubusercontent.com/75650155/229965053-e78f6a27-54fa-4f78-9092-7663b62caffd.png)
 
 ### Sign In Page: 
-
 
 ![Sign-in-page](https://github.com/ihenwk/BInvestment/blob/8a3c8adca992b6c7f96bffac3170549fcf1a7d07/User-Interface-Mock-Up-Design%20/Login.png)
 
@@ -25,10 +34,10 @@ Once the web application is running, the user starts on the welcome page where t
 
 ### Menu Page: 
 The user is able to choose between five options once logged into their account: 
-1. View All Shares 
+1. Deposit Funds 
 2. Buy Shares 
 3. Sell Shares
-4. Deposit Funds 
+4. View All Shares
 5. Log Out
 
 ![Menu](https://github.com/ihenwk/BInvestment/blob/f01987b8648d1644bfdfb05b8abc813f04b01f0c/User-Interface-Mock-Up-Design%20/Main-Menu.png)
@@ -62,5 +71,10 @@ The user is able to choose between five options once logged into their account:
 
 ___
 
-## How to run web application
+## How to run the web application
+1. Open SQL scripts and run the shares table, investments table and users table. 
+2. Start the Users-service API 
+3. Start the User-Investments-Service API
+4. Start the Shares-Service API 
+5. Finally start the main spring application Bright Investment MVC. This will appear on port: 8084.
 
