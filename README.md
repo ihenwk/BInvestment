@@ -96,3 +96,15 @@ ___
 4. Start the Shares-Service API 
 5. Finally start the main spring application Bright Investment MVC. This will appear on port: 8084.
 
+___
+## Tech Stack
+
+- Java 
+- Maven 
+- Spring Boot
+- Rest Template
+- MySQL
+- HTML & CSS
+- Thymeleaf
+
+
