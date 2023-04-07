@@ -102,6 +102,7 @@ ___
 - Java 
 - Maven 
 - Spring Boot
+- Spring Data Jpa
 - Rest Template
 - Postman
 - MySQL
